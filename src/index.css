@@ -19,11 +19,12 @@ code {
   justify-content: center;
 }
 
-.Main{
+.Game{
   display: flex;
   width: 100%;
   align-items: center;
   flex-direction: column;
+  gap: 30px;
 }
 
 .Board{
@@ -33,6 +34,6 @@ code {
 }
 
 .Square{
-  flex: 1 1 30%;
+  flex: 1 1 27%;
   height: 50px;
 }
